@@ -12,7 +12,7 @@ class Global6kupdater < Formula
   depends_on "pv"
 
   def install
-    bin.install "global6kupdater"
+    bin.install "globalupdater"
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     #system "./configure", "--disable-debug",
