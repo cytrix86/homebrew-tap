@@ -7,6 +7,7 @@ class Global6kupdater < Formula
   url "https://github.com/cytrix86/global6kUpdater/archive/v0.1.0.tar.gz"
   sha256 "c447a037cc257b2e465cfbaec3c2ea8093c07935749e0cd9efca433b5d23523a"
   license ""
+  verion "0.1.0""
 
   depends_on "pv"
 
