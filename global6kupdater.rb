@@ -11,13 +11,13 @@ class Global6kupdater < Formula
   # depends_on "cmake" => :build
 
   def install
-	bin.install "globalupdater"
+    bin.install "globalupdater"
     # ENV.deparallelize  # if your formula fails when building in parallel
     # Remove unrecognized options if warned by configure
     #system "./configure", "--disable-debug",
-                          "--disable-dependency-tracking",
-                          "--disable-silent-rules",
-                          "--prefix=#{prefix}"
+    #                      "--disable-dependency-tracking",
+    #                      "--disable-silent-rules",
+    #                      "--prefix=#{prefix}"
     # system "cmake", ".", *std_cmake_args
   end
 
