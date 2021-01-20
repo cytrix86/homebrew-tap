@@ -8,7 +8,7 @@ class Global6kupdater < Formula
   sha256 "c447a037cc257b2e465cfbaec3c2ea8093c07935749e0cd9efca433b5d23523a"
   license ""
 
-  # depends_on "cmake" => :build
+  depends_on "pv"
 
   def install
     bin.install "global6kupdater"
